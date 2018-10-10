@@ -9,7 +9,7 @@ public final class EpisodioContract {
         public final static String COLUMN_NUMERO_TEMPORADA= "numero_temporada";
         public final static String COLUMN_NUMERO_EPISODIO= "numero_episodio";
 
-        public final static String CREATE_LIVRO  = "CREATE TABLE "+ Lembrete.TABLE_NAME+" ("
+        public final static String CREATE_LEMBRETE  = "CREATE TABLE "+ Lembrete.TABLE_NAME+" ("
                 + Lembrete._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + Lembrete.COLUMN_NOME_SERIE+ " TEXT, "
                 + Lembrete.COLUMN_NUMERO_TEMPORADA+ " INTEGER,"

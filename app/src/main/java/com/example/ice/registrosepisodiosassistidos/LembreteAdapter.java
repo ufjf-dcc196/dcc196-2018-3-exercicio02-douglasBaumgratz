@@ -55,7 +55,7 @@ class LembreteAdapter extends RecyclerView.Adapter<LembreteAdapter.ViewHolder>{
             super(itemView);
             txtNomeSerie = itemView.findViewById(R.id.txt_nome_serie);
             txtNumeroTemporada = itemView.findViewById(R.id.txt_numero_temporada);
-            txtNumeroEpisodio = itemView.findViewById(R.id.txt_numero_episodio);
+            txtNumeroEpisodio = itemView.findViewById(R.id.txt_numero_episodio_);
         }
     }
 }
